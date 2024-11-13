@@ -1,0 +1,61 @@
+.button{
+    display:  inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 172, 202);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius:  5px;
+    text-align: center;
+}
+.button:hover{
+    background-color: rgb(0, 158, 158);
+}
+
+.task-menu li{
+    margin: 0;
+}
+
+
+.task-menu a  {
+    display: block;
+    padding: 17px 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #006c68;
+    border: none; /* ลบขอบของปุ่ม */
+    cursor: pointer; /* เปลี่ยนรูปชี้เมาส์ */
+            
+}
+.task-menu {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    display: flex;
+    background-color: #006c68;
+}
+    
+
+    
+.task-menu a:hover {
+    background-color: #00524f;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    font-family: Arial, sans-serif;
+    
+}
+.more{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Topic{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
