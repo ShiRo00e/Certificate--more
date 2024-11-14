@@ -1,6 +1,6 @@
 .button{
     display:  inline-block;
-    padding: 10px 20px;
+    padding: 20px 100px;
     background-color: rgb(0, 172, 202);
     color: aliceblue;
     text-decoration: none;
@@ -47,15 +47,22 @@ body{
     font-family: Arial, sans-serif;
     
 }
+
+
+.Topic{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+.end{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+}
 .more{
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-}
-.Topic{
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial, sans-serif;
 }
 
